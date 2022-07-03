@@ -13,6 +13,10 @@ function App() {
         <CallPage />
       </Route>
 
+      <Route exact path='/random'>
+        <NoMatch />
+      </Route>
+
       <Route exact path='/'>
         <HomePage />
       </Route>
